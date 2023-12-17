@@ -18,13 +18,16 @@ export default function MainNav() {
         aria-label="Global"
       >
         <div className="flex items-center gap-x-12">
-          <Link href="/" className="flex items-center space-x-2">
-            <span className="overflow-auto font-semibold leading-tight tracking-tight">
-              Syam Shukla
-            </span>
+          <Link
+            href="/"
+            className={cn(
+              'text-sm font-light transition-colors hover:text-foreground/80',
+              pathname === '/' ? 'text-foreground' : 'text-foreground/60',
+            )}
+          >
+            Home
           </Link>
-        </div>
-        <div className="hidden md:flex md:gap-x-12">
+
           <Link
             href="/resume"
             className={cn(
