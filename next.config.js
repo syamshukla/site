@@ -1,13 +1,19 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
-    ],
-  },
-}
+const runtimeCaching = require("next-pwa/cache");
+const withPWA = require('next-pwa')({
+  dest: 'public',
+  register: true,
+  skipWaiting: true,
+});
+
+const nextConfig = withPWA({
+  reactStrictMode: true,
+});
+
+module.exports = withPWA({
+ // other congigs
+ reactStrictMode: false
+})
+
 
 module.exports = nextConfig
