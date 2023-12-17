@@ -5,14 +5,12 @@ import React, { useEffect, useState } from 'react'
 
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { useAuthState } from 'react-firebase-hooks/auth'
-import { getAuth } from 'firebase/auth'
-
 import { ModeToggle } from '../mode-toggle'
+import { cn } from '@/lib/utils'
 
 export default function MainNav() {
   const router = useRouter()
-
+  const pathname = usePathname()
   return (
     <header className="fixed top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav
@@ -26,15 +24,38 @@ export default function MainNav() {
             </span>
           </Link>
         </div>
-
-        <div className="text-foreground">
-          <button
-            type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+        <div className="hidden md:flex md:gap-x-12">
+          <Link
+            href="/resume"
+            className={cn(
+              'text-sm font-light transition-colors hover:text-foreground/80',
+              pathname === '/resume' ? 'text-foreground' : 'text-foreground/60',
+            )}
           >
-            <span className="sr-only">Open main menu</span>
-          </button>
+            Resume
+          </Link>
+          <Link
+            href="/projects"
+            className={cn(
+              'text-sm font-light transition-colors hover:text-foreground/80',
+              pathname === '/projects'
+                ? 'text-foreground'
+                : 'text-foreground/60',
+            )}
+          >
+            Projects
+          </Link>
+          <Link
+            href="https://shotsbyshuks.mypixieset.com/"
+            className={cn(
+              'text-sm font-light transition-colors hover:text-foreground/80',
+              pathname === '/play' ? 'text-foreground' : 'text-foreground/60',
+            )}
+          >
+            Portfolio
+          </Link>
         </div>
+
         <ModeToggle />
       </nav>
     </header>
