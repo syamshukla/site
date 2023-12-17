@@ -11,7 +11,7 @@ const MainNav = dynamic(() => import('@/components/layout/main-nav'), {
   ssr: false,
 })
 export const metadata: Metadata = {
-  title: 'BULL-ISH',
+  title: 'Syam Shukla',
   description: '',
 }
 
