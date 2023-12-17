@@ -12,7 +12,7 @@ import { Label } from '@/components/ui/label'
 import { db, firebaseConfig, app, auth, fireStore } from '@/lib/firebase/index'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { getAuth } from 'firebase/auth'
-import { HamburgerMenuIcon, RocketIcon } from '@radix-ui/react-icons'
+import { HamburgerMenuIcon, Avatar } from '@radix-ui/react-icons'
 import { ModeToggle } from '../mode-toggle'
 import ProfileDropdown from './profile-dropdown'
 import {
@@ -50,45 +50,10 @@ export default function MainNav() {
       >
         <div className="flex items-center gap-x-12">
           <Link href="/" className="flex items-center space-x-2">
-            <RocketIcon className="h-5 w-5 text-foreground" />
             <span className="overflow-auto font-semibold leading-tight tracking-tight">
-              BULL-ISH
+              Syam Shukla
             </span>
           </Link>
-          <div className="hidden md:flex md:gap-x-12">
-            <Link
-              href="/play"
-              className={cn(
-                'text-sm font-light transition-colors hover:text-foreground/80',
-                pathname === '/play' ? 'text-foreground' : 'text-foreground/60',
-              )}
-            >
-              Play
-            </Link>
-            <Link
-              href="/results"
-              className={cn(
-                'text-sm font-light transition-colors hover:text-foreground/80',
-                pathname === '/results'
-                  ? 'text-foreground'
-                  : 'text-foreground/60',
-              )}
-            >
-              Your Picks
-            </Link>
-
-            <Link
-              href="/stats"
-              className={cn(
-                'text-sm font-light transition-colors hover:text-foreground/80',
-                pathname === '/stats'
-                  ? 'text-foreground'
-                  : 'text-foreground/60',
-              )}
-            >
-              Scoreboard
-            </Link>
-          </div>
         </div>
 
         <div className="text-foreground">
@@ -99,45 +64,7 @@ export default function MainNav() {
             <span className="sr-only">Open main menu</span>
           </button>
         </div>
-        <div className="flex items-center space-x-1">
-          {user ? (
-            // <>
-            //   <span>{user.displayName || user.email}</span>
-            // </>
-            <ProfileDropdown user={user} />
-          ) : null}
-          {user === null && (
-            <Button asChild>
-              <Link href="/login">Log In</Link>
-            </Button>
-          )}
-          <ModeToggle />
-          <div className="block md:hidden">
-            <Popover>
-              <PopoverTrigger>
-                <Button variant="ghost" size="icon">
-                  <HamburgerMenuIcon className="h-6 w-6 text-foreground" />
-                </Button>
-              </PopoverTrigger>
-              <PopoverContent className="flex flex-col gap-2 ">
-                <Button variant="outline" asChild>
-                  <Link href="/play">
-                    <RocketIcon className="mr-2 h-5 w-5 text-foreground" />
-                    Play Now
-                  </Link>
-                </Button>
-
-                <Button variant="outline" asChild>
-                  <Link href="/results">Your Picks</Link>
-                </Button>
-
-                <Button variant="outline" asChild>
-                  <Link href="/stats">Scoreboard</Link>
-                </Button>
-              </PopoverContent>
-            </Popover>
-          </div>
-        </div>
+        <ModeToggle />
       </nav>
     </header>
   )
