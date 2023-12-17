@@ -3,44 +3,15 @@
 
 import React, { useEffect, useState } from 'react'
 
-import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { cn } from '@/lib/utils'
 import { usePathname, useRouter } from 'next/navigation'
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
-import { db, firebaseConfig, app, auth, fireStore } from '@/lib/firebase/index'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { getAuth } from 'firebase/auth'
-import { HamburgerMenuIcon, Avatar } from '@radix-ui/react-icons'
+
 import { ModeToggle } from '../mode-toggle'
-import ProfileDropdown from './profile-dropdown'
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from '@/components/ui/popover'
 
 export default function MainNav() {
-  const [user] = useAuthState(auth)
   const router = useRouter()
-  const [avatar, setAvatar] = useState(false)
-  const pathname = usePathname()
-  useEffect(() => {
-    const checkUser = async () => {
-      const authUser = getAuth().currentUser
-
-      if (authUser) {
-        console.log('User exists')
-        setAvatar(true)
-      } else {
-        console.log('User does not exist')
-        setAvatar(false)
-      }
-    }
-
-    checkUser()
-  }, [router])
 
   return (
     <header className="fixed top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">

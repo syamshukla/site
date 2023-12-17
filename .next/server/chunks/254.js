@@ -1,0 +1,1 @@
+"use strict";exports.id=254,exports.ids=[254],exports.modules={33254:(e,s,t)=>{t.r(s),t.d(s,{$$typeof:()=>d,__esModule:()=>a,default:()=>n});var r=t(95153);let o=(0,r.createProxy)(String.raw`/Users/sam/Documents/DREX_DOCS/personal/src/components/layout/main-nav.tsx`),{__esModule:a,$$typeof:d}=o,l=o.default,n=l}};
