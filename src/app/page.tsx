@@ -4,9 +4,7 @@ import dynamic from 'next/dynamic'
 const Intro = dynamic(() => import('@/components/landing/intro'), {
   ssr: false, // This ensures the component is not included in SSR
 })
-import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
-import Link from 'next/link'
 import React from 'react'
 
 export default function Home() {
