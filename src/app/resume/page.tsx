@@ -6,7 +6,7 @@ import { contentData } from '../data/content'
 import type { Content } from '../data/content'
 import React, { useEffect, useState } from 'react'
 
-const Content: React.FC<ContentProps> = ({ title, items }) => {
+const Content: React.FC<Content> = ({ title, items }) => {
   return (
     <section className="my-14 text-sm">
       <h3 className="mb-6">{title}</h3>
