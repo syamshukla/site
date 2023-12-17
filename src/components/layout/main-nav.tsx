@@ -11,7 +11,7 @@ import { cn } from '@/lib/utils'
 export default function MainNav() {
   const router = useRouter()
   const pathname = usePathname()
-  const isSmallScreen = window.innerWidth <= 640
+  const isSmallScreen = window.innerWidth <= 600
   return (
     <header className="fixed top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav
