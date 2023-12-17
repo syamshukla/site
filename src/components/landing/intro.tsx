@@ -45,7 +45,7 @@ export default function Intro() {
             <Link href="/resume">Resume</Link>
           </Button>
           <Button asChild>
-            <Link href="/learn-more">Projects</Link>
+            <Link href="/projects">Projects</Link>
           </Button>
         </div>
       </motion.div>
