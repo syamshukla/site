@@ -47,6 +47,9 @@ export default function Intro() {
           <Button asChild>
             <Link href="/projects">Projects</Link>
           </Button>
+          <Button asChild>
+            <Link href="https://shotsbyshuks.mypixieset.com/">Portfolio</Link>
+          </Button>
         </div>
       </motion.div>
     </motion.div>
