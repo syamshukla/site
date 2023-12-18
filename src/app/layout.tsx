@@ -20,6 +20,20 @@ export const metadata: Metadata = {
     title: 'Syam Shukla',
     description: 'The',
     type: 'website',
+    images: [
+      {
+        url: 'https://www.syamshukla.tech/opengraph-image.png',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://www.syamshukla.tech/opengraph-image.png',
+        width: 1800,
+        height: 1600,
+        alt: 'My custom alt',
+      },
+    ],
+    locale: 'en_US',
   },
   twitter: {
     title: 'Syam Shukla',
