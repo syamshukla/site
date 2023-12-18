@@ -12,7 +12,7 @@ export default function MainNav() {
   const router = useRouter()
   const pathname = usePathname()
   const isSmallScreen =
-    typeof window !== 'undefined' ? window.innerWidth <= 600 : false
+    typeof window !== 'undefined' ? window.innerWidth <= 500 : false
   return (
     <header className="fixed top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav
