@@ -20,14 +20,12 @@ export default function MainNav() {
         aria-label="Global"
       >
         <div className="flex items-center gap-x-4">
-          {isSmallScreen ? (
             <Link
               href="/"
               className="text-sm font-light transition-colors hover:text-foreground/80"
             >
               Home
             </Link>
-          ) : (
             <>
               <Link
                 href="/"
@@ -72,7 +70,7 @@ export default function MainNav() {
                 Portfolio
               </Link>
             </>
-          )}
+
         </div>
 
         <ModeToggle />
