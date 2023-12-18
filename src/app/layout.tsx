@@ -15,10 +15,12 @@ export const metadata: Metadata = {
   description: 'The',
   manifest: '/manifest.json',
   icons: { apple: '/icon.png' },
-  // opengraph image
+
   openGraph: {
     title: 'Syam Shukla',
     description: 'The',
+    type: 'website',
+    images: [{ url: '/opengraph-image.png' }],
   },
   twitter: {
     title: 'Syam Shukla',
