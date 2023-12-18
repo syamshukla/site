@@ -15,12 +15,11 @@ export const metadata: Metadata = {
   description: 'The',
   manifest: '/manifest.json',
   icons: { apple: '/icon.png' },
-
+  metadataBase: new URL('https://syamshukla.tech/opengraph-image.png/'),
   openGraph: {
     title: 'Syam Shukla',
     description: 'The',
     type: 'website',
-    images: [{ url: '/opengraph-image.png' }],
   },
   twitter: {
     title: 'Syam Shukla',
