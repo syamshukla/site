@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Analytics } from '@vercel/analytics/react'
 import { ThemeProvider } from '@/components/theme-provider'
 import { Toaster } from 'sonner'
 import Footer from '@/components/layout/footer'
@@ -29,6 +30,7 @@ export default function RootLayout({
         >
           <MainNav />
           {children}
+          <Analytics />
           <Footer />
           <Toaster richColors position="top-center" />
         </ThemeProvider>
