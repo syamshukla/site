@@ -20,57 +20,48 @@ export default function MainNav() {
         aria-label="Global"
       >
         <div className="flex items-center gap-x-4">
+          <>
             <Link
               href="/"
-              className="text-sm font-light transition-colors hover:text-foreground/80"
+              className={cn(
+                'text-sm font-light transition-colors hover:text-foreground/80',
+                pathname === '/' ? 'text-foreground' : 'text-foreground/60',
+              )}
             >
               Home
             </Link>
-            <>
-              <Link
-                href="/"
-                className={cn(
-                  'text-sm font-light transition-colors hover:text-foreground/80',
-                  pathname === '/' ? 'text-foreground' : 'text-foreground/60',
-                )}
-              >
-                Home
-              </Link>
-              <Link
-                href="/resume"
-                className={cn(
-                  'text-sm font-light transition-colors hover:text-foreground/80',
-                  pathname === '/resume'
-                    ? 'text-foreground'
-                    : 'text-foreground/60',
-                )}
-              >
-                Resume
-              </Link>
-              <Link
-                href="/projects"
-                className={cn(
-                  'text-sm font-light transition-colors hover:text-foreground/80',
-                  pathname === '/projects'
-                    ? 'text-foreground'
-                    : 'text-foreground/60',
-                )}
-              >
-                Projects
-              </Link>
-              <Link
-                href="https://shotsbyshuks.mypixieset.com/"
-                className={cn(
-                  'text-sm font-light transition-colors hover:text-foreground/80',
-                  pathname === '/play'
-                    ? 'text-foreground'
-                    : 'text-foreground/60',
-                )}
-              >
-                Portfolio
-              </Link>
-            </>
-
+            <Link
+              href="/resume"
+              className={cn(
+                'text-sm font-light transition-colors hover:text-foreground/80',
+                pathname === '/resume'
+                  ? 'text-foreground'
+                  : 'text-foreground/60',
+              )}
+            >
+              Resume
+            </Link>
+            <Link
+              href="/projects"
+              className={cn(
+                'text-sm font-light transition-colors hover:text-foreground/80',
+                pathname === '/projects'
+                  ? 'text-foreground'
+                  : 'text-foreground/60',
+              )}
+            >
+              Projects
+            </Link>
+            <Link
+              href="https://shotsbyshuks.mypixieset.com/"
+              className={cn(
+                'text-sm font-light transition-colors hover:text-foreground/80',
+                pathname === '/play' ? 'text-foreground' : 'text-foreground/60',
+              )}
+            >
+              Portfolio
+            </Link>
+          </>
         </div>
 
         <ModeToggle />
