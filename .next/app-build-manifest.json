@@ -1,15 +1,46 @@
 {
   "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-b9288b8408823966.js",
+      "static/chunks/fd9d1056-485d6cbe72bd0172.js",
+      "static/chunks/472-62e506fc209c53be.js",
+      "static/chunks/main-app-500ce2949601fe09.js",
+      "static/chunks/app/_not-found-88ad8d29ad8d348e.js"
+    ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-b9288b8408823966.js",
+      "static/chunks/fd9d1056-485d6cbe72bd0172.js",
+      "static/chunks/472-62e506fc209c53be.js",
+      "static/chunks/main-app-500ce2949601fe09.js",
+      "static/chunks/444-44e3999bae5f3965.js",
+      "static/chunks/167-209d368a5274cff3.js",
+      "static/css/7ed317d3f0b6005e.css",
+      "static/chunks/app/layout-e61f7bbe616f2c0f.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-b9288b8408823966.js",
+      "static/chunks/fd9d1056-485d6cbe72bd0172.js",
+      "static/chunks/472-62e506fc209c53be.js",
+      "static/chunks/main-app-500ce2949601fe09.js",
+      "static/chunks/444-44e3999bae5f3965.js",
+      "static/chunks/22-d80e2c34d57c9c4e.js",
+      "static/chunks/app/page-ec7d16e2a9256520.js"
     ],
     "/projects/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/projects/page.js"
+      "static/chunks/webpack-b9288b8408823966.js",
+      "static/chunks/fd9d1056-485d6cbe72bd0172.js",
+      "static/chunks/472-62e506fc209c53be.js",
+      "static/chunks/main-app-500ce2949601fe09.js",
+      "static/chunks/444-44e3999bae5f3965.js",
+      "static/chunks/app/projects/page-a0248720df72bd5c.js"
+    ],
+    "/resume/page": [
+      "static/chunks/webpack-b9288b8408823966.js",
+      "static/chunks/fd9d1056-485d6cbe72bd0172.js",
+      "static/chunks/472-62e506fc209c53be.js",
+      "static/chunks/main-app-500ce2949601fe09.js",
+      "static/chunks/413-2f402c58cec45f28.js",
+      "static/chunks/app/resume/page-04bc108c5cb23a73.js"
     ]
   }
 }

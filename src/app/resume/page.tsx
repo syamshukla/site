@@ -1,10 +1,7 @@
-'use client'
-import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import { generalData } from '../data/general'
 import { contentData } from '../data/content'
 import type { Content } from '../data/content'
-import React, { useEffect, useState } from 'react'
 
 const Content: React.FC<Content> = ({ title, items }) => {
   return (
