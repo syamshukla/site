@@ -5,8 +5,6 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { Toaster } from 'sonner'
 import Footer from '@/components/layout/footer'
 import { GeistSans } from 'geist/font/sans'
-import dynamic from 'next/dynamic'
-
 import MainNav from '@/components/layout/main-nav'
 export const metadata: Metadata = {
   title: 'Syam Shukla',
