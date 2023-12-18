@@ -22,24 +22,18 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.syamshukla.tech/opengraph-image.png',
+        url: './opengraph-image.png',
         width: 800,
         height: 600,
       },
       {
-        url: 'https://www.syamshukla.tech/opengraph-image.png',
+        url: './opengraph-image.png',
         width: 1800,
         height: 1600,
         alt: 'My custom alt',
       },
     ],
     locale: 'en_US',
-  },
-  twitter: {
-    title: 'Syam Shukla',
-    description: 'The',
-    card: 'summary_large_image',
-    creator: '@syams0113',
   },
 }
 
