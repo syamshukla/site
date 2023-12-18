@@ -13,6 +13,7 @@ const MainNav = dynamic(() => import('@/components/layout/main-nav'), {
 export const metadata: Metadata = {
   title: 'Syam Shukla',
   description: 'The',
+  manifest: '/manifest.json',
 }
 
 export default function RootLayout({
