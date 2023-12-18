@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: 'Syam Shukla',
   description: 'The',
   manifest: '/manifest.json',
+  icons: { apple: '/icon.png' },
 }
 
 export default function RootLayout({
