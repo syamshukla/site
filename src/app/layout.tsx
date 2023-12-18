@@ -6,12 +6,11 @@ import { Toaster } from 'sonner'
 import Footer from '@/components/layout/footer'
 import { GeistSans } from 'geist/font/sans'
 import dynamic from 'next/dynamic'
-const MainNav = dynamic(() => import('@/components/layout/main-nav'), {
-  ssr: false,
-})
+
+import MainNav from '@/components/layout/main-nav'
 export const metadata: Metadata = {
   title: 'Syam Shukla',
-  description: '',
+  description: 'The ',
 }
 
 export default function RootLayout({
