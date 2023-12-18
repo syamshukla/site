@@ -17,19 +17,15 @@ export const metadata: Metadata = {
   icons: { apple: '/icon.png' },
   // opengraph image
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: 'https://syamshukla.com',
-    images: [
-      {
-        url: 'https://syamshukla.com/opengraph-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'Syam Shukla',
-      },
-    ],
+    title: 'Syam Shukla',
+    description: 'The',
   },
-
+  twitter: {
+    title: 'Syam Shukla',
+    description: 'The',
+    card: 'summary_large_image',
+    creator: '@syams0113',
+  },
 }
 
 export default function RootLayout({
