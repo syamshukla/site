@@ -9,15 +9,15 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative h-10">
       <GridPattern
         className={cn(
           '[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] ',
           'absolute inset-x-0 inset-y-[-50%] h-[200%] w-full skew-y-12',
         )}
       />
-      <div className="relative isolate px-6 pt-14 lg:px-8">
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div className=" px-6 pt-14 lg:px-8">
+        <div className="overscroll-hidden lg:py-50 mx-auto   max-w-2xl sm:py-48">
           <Intro />
         </div>
       </div>
