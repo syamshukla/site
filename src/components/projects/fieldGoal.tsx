@@ -6,7 +6,7 @@ export class FieldGoal extends Component {
     return (
       <>
         <div className="space-y-1">
-          <Link href="">
+          <Link href="https://www.greenhillfgf.com">
             <h4 className="text-sm font-medium leading-none">
               Field Goal Finance
             </h4>

@@ -14,35 +14,41 @@ export const contentData = [
     title: 'Work Experience',
     items: [
       {
-        title: 'Hedge Nav-O Intern at BlackRock',
+        title: 'Full Stack Developer at GreenHill Investment Reporting',
+        subTitle: 'Philadelphia - Pennsylvania',
+        date: 'Aug. 2023 - Jun 2024',
+        description: `Spearheaded the development of a cutting-edge fantasy stock game called Field Goal Finance. Developed a dynamic Next.js Progressive Web App to enhance user experience and platform performance. Implemented intuitive administrative interface and resilient Node.js server deployed on AWS EC2. Integrated polygon.io API to
+facilitate seamless operation and real-time retrieval of stock data stored in AWS Relational Database Service
+`,
+      },
+      {
+        title: 'Software Engineer at BlackRock',
         subTitle: 'Wilmington - Delaware',
         date: 'Sept. 2022 - March 2023',
         description: `
-        Created a Python automation script to eliminate daily manual processes, significantly reducing errors and generating substantial long-term cost savings. Automated monthly data compilation and upload for 50+ funds using VBA scripts into an internal database. Streamlined team data access by creating SQL query templates, enabling quick and efficient lookups.`,
+        Created a Python automation script to eliminate daily manual processes, reducing 100% of errors and generating more than 6 figures
+        in annual savings. Automated monthly data compilation and upload for 50+ funds using VBA scripts into Aqua Data Studio. Streamlined team data access by creating SQL query templates, enabling 70% quicker lookup and a 50% increase in efficiency`,
       },
       {
         title: 'Software Engineer at Lockheed Martin',
         subTitle: 'Moorestown - New Jersey',
         date: 'Sept. 2021 - March 2022',
-        description: `Collaborated with a team of Software and System Engineers in designing and implementing software in Java using Agile development techniques. Utilized the Atlassian Suite to integrate bug fixes, updates, and new features into the product. Boosted project efficiency by crafting UML diagrams and design packages,leading to substantial times avings
-        during the implementation of new features.`,
+        description: `Collaborated with team of 8 Software/Systems Engineers to design/implement software in Java using Agile methodologies
+        Utilized the Atlassian Suite to integrate 20 bug fixes, 15 updates, and 2 new features into the product
+        Boosted project efficiency by 20% through crafting UML diagrams and design packages, leading to 1 month of time savings during the implementation of new features`,
       },
       {
         title: 'Photographer at Shots By Shuks',
         subTitle: 'Philadelphia - Pennsylvania',
         date: 'Aug. 2022 - Present',
-        description: `Direct and photograph over 75 photo shoots and ad campaigns.
-        Meet with the lead fashion designer to strategically plan and select models, locations, and campaigns, to tailor
-        directly for new season releases.`,
+        description: `Established a freelance photography business, collaborating with various fashion designers, models, and content-creators`,
       },
       {
         title: 'Instructor at CodeWizardsHQ',
         subTitle: 'Remote',
         date: 'August 2021- April 2022',
-        description: `Mentored students worldwide in web development and software engineering across diverse age groups.
-        Implemented a comprehensive curriculum, fostering growth and motivating students to tackle challenging
-        projects.
-        Provided constructive feedback and personalized support to enhance their coding skills.`,
+        description: `Guided and mentored a global community of 75 students in web development and software engineering. Designed a comprehensive curriculum with hands-on projects in Python, JavaScript, HTML, and CSS. Advocated for holistic and growth skill acquisition 2 times a week with additional 1-on-1 office hours
+        `,
       },
     ],
   },
@@ -50,13 +56,6 @@ export const contentData = [
   {
     title: 'Projects',
     items: [
-      {
-        title: 'Field Goal Finance',
-        date: '2023 – 2024',
-        description:
-          'Consulted with GreenHill Investment to develop a Next.js PWA for mobile deployment and an admin site for user management in a fantasy stock investment game',
-      },
-
       {
         title: 'Bull-Ish',
         date: '2023',
@@ -84,7 +83,7 @@ export const contentData = [
       {
         title: 'Languages',
         description:
-          'Java, C, Python, JavaScript, Next.Js, Bash, AWS, TypeScript',
+          'Python, Java, JavaScript, Next.Js, Bash, AWS, TypeScript, NumPy, Pandas, Junit, PostgresSQL, C',
       },
       {
         title: 'Tools',
