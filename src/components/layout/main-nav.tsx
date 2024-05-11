@@ -53,7 +53,7 @@ export default function MainNav() {
               Projects
             </Link>
             <Link
-              href="https://shotsbyshuks.mypixieset.com/"
+              href="https://shuklasyam135ad2.myportfolio.com/"
               className={cn(
                 'text-sm font-light transition-colors hover:text-foreground/80',
                 pathname === '/play' ? 'text-foreground' : 'text-foreground/60',
