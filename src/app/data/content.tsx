@@ -17,7 +17,7 @@ export const contentData = [
         title: 'Full Stack Developer at GreenHill Investment Reporting',
         subTitle: 'Philadelphia - Pennsylvania',
         date: 'Aug. 2023 - Jun 2024',
-        description: `SSpearheaded the full-stack development of Field Goal Finance, a fantasy stock game, utilizing Next.js for a dynamic PWA and Node.js for a robust backend server on AWS EC2. Successfully engaged and supported hundreds of users. Directed the integration of the polygon.io API to provide real-time stock data, effectively managing and storing data within AWS Relational Database Service. Developed a user-friendly admin interface and ensured seamless updates and a stable production environment through Vercel’s CI/CD pipeline, enhancing overall user experience and system reliability.
+        description: `Spearheaded the full-stack development of Field Goal Finance, a fantasy stock game, utilizing Next.js for a dynamic PWA and Node.js for a robust backend server on AWS EC2. Successfully engaged and supported hundreds of users. Directed the integration of the polygon.io API to provide real-time stock data, effectively managing and storing data within AWS Relational Database Service. Developed a user-friendly admin interface and ensured seamless updates and a stable production environment through Vercel’s CI/CD pipeline, enhancing overall user experience and system reliability.
 `,
       },
       {
