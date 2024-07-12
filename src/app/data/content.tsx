@@ -17,8 +17,7 @@ export const contentData = [
         title: 'Full Stack Developer at GreenHill Investment Reporting',
         subTitle: 'Philadelphia - Pennsylvania',
         date: 'Aug. 2023 - Jun 2024',
-        description: `Spearheaded the development of a cutting-edge fantasy stock game called Field Goal Finance. Developed a dynamic Next.js Progressive Web App to enhance user experience and platform performance. Implemented intuitive administrative interface and resilient Node.js server deployed on AWS EC2. Integrated polygon.io API to
-facilitate seamless operation and real-time retrieval of stock data stored in AWS Relational Database Service
+        description: `SSpearheaded the full-stack development of Field Goal Finance, a fantasy stock game, utilizing Next.js for a dynamic PWA and Node.js for a robust backend server on AWS EC2. Successfully engaged and supported hundreds of users. Directed the integration of the polygon.io API to provide real-time stock data, effectively managing and storing data within AWS Relational Database Service. Developed a user-friendly admin interface and ensured seamless updates and a stable production environment through Vercel’s CI/CD pipeline, enhancing overall user experience and system reliability.
 `,
       },
       {
@@ -26,16 +25,15 @@ facilitate seamless operation and real-time retrieval of stock data stored in AW
         subTitle: 'Wilmington - Delaware',
         date: 'Sept. 2022 - March 2023',
         description: `
-        Created a Python automation script to eliminate daily manual processes, reducing 100% of errors and generating more than 6 figures
-        in annual savings. Automated monthly data compilation and upload for 50+ funds using VBA scripts into Aqua Data Studio. Streamlined team data access by creating SQL query templates, enabling 70% quicker lookup and a 50% increase in efficiency`,
+        Led the development and implementation of a Python script to automate NAV (Net Asset Value) calculations and data processing within Aladdin for a portfolio of 50+ hedge funds. This initiative not only eliminated manual errors but also generated over $100,000 in annual savings by reducing the reliance on external pricing services. Automated monthly data compilation and uploads for 50+ hedge funds using custom VBA and Bash scripts in Aqua Data Studio, ensuring accurate and timely NAV calculations.
+        Boosted team efficiency by 30% with a library of reusable SQL queries for NAV reconciliation, position validation, and performance analysis, increasing overall productivity by 40%.`,
       },
       {
         title: 'Software Engineer at Lockheed Martin',
         subTitle: 'Moorestown - New Jersey',
         date: 'Sept. 2021 - March 2022',
-        description: `Collaborated with team of 8 Software/Systems Engineers to design/implement software in Java using Agile methodologies
-        Utilized the Atlassian Suite to integrate 20 bug fixes, 15 updates, and 2 new features into the product
-        Boosted project efficiency by 20% through crafting UML diagrams and design packages, leading to 1 month of time savings during the implementation of new features`,
+        description: `Coordinated efforts within a team of 8 Software/Systems Engineers to design and implement software in Java using Agile methodologies. Utilized build automation tools such as Maven and Ant to streamline the development process.
+        Utilized the Atlassian Suite (Jira and Confluence) to track progress, manage tasks, and document solutions while integrating 20 bug fixes, 15 updates, and 2 new features into the product, supported by continuous integration with Jenkins. Increased project efficiency by 20% through the strategic creation of UML diagrams and design packages. This initiative led to a month of time savings during the implementation of new features on the Linux RedHat environment.`,
       },
       {
         title: 'Photographer at Shots By Shuks',
@@ -60,7 +58,7 @@ facilitate seamless operation and real-time retrieval of stock data stored in AW
         title: 'Bull-Ish',
         date: '2023',
         description:
-          'Developed a stock picks game for the everyday investor using Next.js and Firebase. Integrated the Alpha Vantage API to retrieve real-time stock data and deployed the app using Vercel.',
+          'Daily stock market game app: User-inputted tickers, competitive leaderboard for daily returns (Node.js, Next.js, Firebase).',
       },
       {
         title: 'Portfolio Website',
@@ -72,7 +70,7 @@ facilitate seamless operation and real-time retrieval of stock data stored in AW
         title: 'Java Banking Application',
         date: '2021',
         description:
-          'Implemented test-driven development in Java for a comprehensive bank- ing system. Employed Gitlab for software testing and mutations, integrating CI/CD pipelines and PIT muta- tion testing.',
+          'Comprehensive Java banking system with user accounts, transactions, and statements (GitLab, CI/CD, PIT Mutation Testing, Unit Testing)',
       },
     ],
   },
@@ -83,7 +81,7 @@ facilitate seamless operation and real-time retrieval of stock data stored in AW
       {
         title: 'Languages',
         description:
-          'Python, Java, JavaScript, Next.Js, Bash, AWS, TypeScript, NumPy, Pandas, Junit, PostgresSQL, C',
+          'Python, Java, JavaScript, Next.Js, Bash, AWS, Swift, TypeScript, NumPy, Pandas, Junit, PostgresSQL, C',
       },
       {
         title: 'Tools',
