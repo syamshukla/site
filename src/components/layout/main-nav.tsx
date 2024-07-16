@@ -21,7 +21,7 @@ export default function MainNav() {
         className="flex items-center justify-between px-3 py-3"
         aria-label="Global"
       >
-        <div className="flex items-center gap-x-4">
+        <div className="flex items-center gap-x-2 p-2 sm:gap-x-2 md:gap-x-4  lg:gap-x-4">
           <>
             <Link
               href="/"
