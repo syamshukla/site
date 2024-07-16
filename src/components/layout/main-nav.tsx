@@ -7,6 +7,8 @@ import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { ModeToggle } from '../mode-toggle'
 import { cn } from '@/lib/utils'
+import appStoreIcon from '../../../public/app-store.svg'
+import Image from 'next/image'
 
 export default function MainNav() {
   const router = useRouter()
@@ -61,6 +63,23 @@ export default function MainNav() {
             >
               Portfolio
             </Link>
+            <div className="flex items-center rounded-sm border border-primary p-1 text-sm font-light transition-colors hover:text-foreground/80">
+              <Image
+                src={appStoreIcon}
+                className="w-4 fill-current text-white"
+              />
+              <Link
+                href="https://apps.apple.com/us/app/chrom/id6547835066/"
+                className={cn(
+                  'ml-2 text-sm font-bold transition-colors hover:text-foreground/80',
+                  pathname === '/play'
+                    ? 'text-foreground'
+                    : 'text-foreground/60',
+                )}
+              >
+                Chrom
+              </Link>
+            </div>
           </>
         </div>
 

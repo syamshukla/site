@@ -55,6 +55,12 @@ export const contentData = [
     title: 'Projects',
     items: [
       {
+        title: 'Chrom',
+        date: '2024',
+        description:
+          'Developed an innovative and engaging mobile application, Chrom, that combines color recognition with interactive swiping mechanics similar to Tinder. The app challenges users to identify the correct color names through a fun and visually appealing interface.',
+      },
+      {
         title: 'Bull-Ish',
         date: '2023',
         description:
