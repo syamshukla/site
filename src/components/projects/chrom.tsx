@@ -40,6 +40,7 @@ export class Bullish extends Component {
           <Separator orientation="vertical" />
           <div>
             <Link href="https://apps.apple.com/us/app/chrom/id6547835066/">
+              {/* @ts-ignore */}
               <Image
                 src={appStoreIcon}
                 className="w-6 fill-current text-white"

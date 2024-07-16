@@ -64,6 +64,7 @@ export default function MainNav() {
               Portfolio
             </Link>
             <div className="flex items-center rounded-sm border border-primary p-1 text-sm font-light transition-colors hover:text-foreground/80">
+              {/* @ts-ignore */}
               <Image
                 src={appStoreIcon}
                 className="w-4 fill-current text-white"
